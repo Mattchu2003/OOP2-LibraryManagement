@@ -61,4 +61,11 @@ public class Library {
                 } else {
                     System.out.println("Book is already available.");
                 }
+
+                return;
+            }
+        }
+
+        System.out.println("Book not found.");
+    }
 }
